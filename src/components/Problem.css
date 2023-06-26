@@ -1,0 +1,26 @@
+li{
+    padding-bottom: 20px
+}
+
+ul{
+    margin-left: 30px;
+}
+
+.button p{
+    height: 15px;
+}
+
+.button a{
+    width: 50%;
+    justify-self: center;
+    background-color: #af6f63;;
+    color: white;
+}
+
+.button a:hover{
+    background: #8c594f;
+}
+
+.button{
+    text-align: center;
+}
