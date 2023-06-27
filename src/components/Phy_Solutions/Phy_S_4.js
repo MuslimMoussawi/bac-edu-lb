@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardImg } from "reactstrap";
 
-function Math_S_1 () {
+function Phy_S_4 () {
     return(
         <Card className='cards'>
             <CardImg src='/assets/images/S-1-1.jpg' alt='solution 1'></CardImg>
@@ -10,4 +10,4 @@ function Math_S_1 () {
     )
 }
 
-export default Math_S_1
+export default Phy_S_4

@@ -30,7 +30,15 @@ import Math_p_2 from './Math_Problems/Math_p_2';
 import Math_p_3 from './Math_Problems/Math_p_3';
 import Math_p_4 from './Math_Problems/Math_p_4';
 
+import Math_S_1 from './Math_Solutions/Math_S_1';
+import Math_S_2 from './Math_Solutions/Math_S_2';
 import Math_S_3 from './Math_Solutions/Math_S_3';
+import Math_S_4 from './Math_Solutions/Math_S_4';
+
+import Phy_S_1 from './Phy_Solutions/Phy_S_1';
+import Phy_S_2 from './Phy_Solutions/Phy_S_2';
+import Phy_S_3 from './Phy_Solutions/Phy_S_3';
+import Phy_S_4 from './Phy_Solutions/Phy_S_4';
 
 import { DISHES } from '../shared/dishes';
 import { COMMENTS } from '../shared/comments';
@@ -41,6 +49,9 @@ import { PROBLEMS } from '../shared/problems';
 
 import { Switch, Route, Redirect, withRouter} from 'react-router-dom';
 import { connect } from 'react-redux';
+
+import Chemistry from './Subject-Pages/Chemistry';
+import Biology from './Subject-Pages/Biology';
 
 
 
@@ -104,6 +115,10 @@ class Main extends Component
 
               <Route path='/Subject-Pages/Math' component={Math}/>
 
+              <Route path='/Subject-Pages/Chemistry' component={Chemistry}/>
+
+              <Route path='/Subject-Pages/Biology' component={Biology}/>
+
               /* */
 
               <Route path='/Biology_Problems/Biology_p_1' component={Biology_p_1} />
@@ -154,7 +169,19 @@ class Main extends Component
 
               /* */
 
+              <Route path='/Math_Solutions/Math_S_1' component={Math_S_1} />
+              <Route path='/Math_Solutions/Math_S_2' component={Math_S_2} />
               <Route path='/Math_Solutions/Math_S_3' component={Math_S_3}/>
+              <Route path='/Math_Solutions/Math_S_4' component={Math_S_4}/>
+
+              /* */
+
+              /* */
+
+              <Route path='/Phy_Solutions/Phy_S_1' component={Phy_S_1}/>
+              <Route path='/Phy_Solutions/Phy_S_2' component={Phy_S_2}/>
+              <Route path='/Phy_Solutions/Phy_S_3' component={Phy_S_3}/>
+              <Route path='/Phy_Solutions/Phy_S_4' component={Phy_S_4}/>
 
               /* */
 

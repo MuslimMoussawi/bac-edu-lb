@@ -1,9 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Card, CardImg } from "reactstrap";
 
 function Phy_p_2 () {
     return(
-        <img src="" alt="Problem 2"/>
+        <Card className='cards'>
+            <CardImg width="100%" src={'/assets/images/Phy_P-2.jpg'} alt='Problem 1'></CardImg>
+            <div className="button">
+                <a role="button" className="btn" href="/Phy_Solutions/Phy_S_2"><p>solution</p></a>
+            </div>
+        </Card>
     )
 }
 

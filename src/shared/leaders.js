@@ -8,15 +8,6 @@ export const LEADERS = [
       description: "Roba Bazzi is the founder, CEO of the Bazzi Academic Center."
     },
     {
-      id: 1,
-      name: 'Students Feedback',
-      image: '/assets/images/StudentFeedback2.jpg',
-
-      abbr: 'CFO',
-        featured: false,
-      description: 'I wanted to express my heartfelt appreciation for the incredible college experience I\'ve had at [College Name]. From the supportive faculty to the diverse courses and vibrant student community, I am grateful for the well-rounded education and personal growth I have experienced. Thank you for creating an exceptional environment that has prepared me for the future.'
-    },
-    {
       id: 2,
       name: 'Our Mission',
       image: '/assets/images/alberto.png',
@@ -24,6 +15,15 @@ export const LEADERS = [
       abbr: 'CTO',
         featured: false,
       description: 'At Bazzi Academic Center, our mission is to empower minds and transform lives through exceptional education. We foster a vibrant and inclusive learning community that nurtures curiosity, critical thinking, and personal growth. With diverse academic programs, dedicated faculty, and hands-on experiences, we prepare students for success in a changing world. We celebrate diversity, provide comprehensive support, and cultivate lifelong learning. Join us and embark on a journey of growth, excellence, and endless possibilities.'
+    },
+    {
+      id: 1,
+      name: 'Students Feedback',
+      image: '/assets/images/StudentFeedback2.jpg',
+
+      abbr: 'CFO',
+        featured: false,
+      description: 'I wanted to express my heartfelt appreciation for the incredible college experience I\'ve had at [College Name]. From the supportive faculty to the diverse courses and vibrant student community, I am grateful for the well-rounded education and personal growth I have experienced. Thank you for creating an exceptional environment that has prepared me for the future.'
     },
     {
       id: 3,
