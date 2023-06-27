@@ -3,7 +3,7 @@ export const COURSES=
         {
             id: 1,
             name:'Math',
-            image: '/assets/images/Math.png',
+            image: '/assets/images/2.png',
             category: 'appetizer',
             label:'',
             price:'1.99',
@@ -13,7 +13,7 @@ export const COURSES=
         {
             id: 2,
             name:'Chemistry',
-            image: '/assets/images/Chemistry.jpg',
+            image: '/assets/images/4.png',
             category: 'appetizer',
             label:'New',
             price:'1.99',
@@ -23,7 +23,7 @@ export const COURSES=
         {
             id: 3,
             name:'Biology',
-            image: '/assets/images/Bio.png',
+            image: '/assets/images/3.png',
             category: 'dessert',
             label:'',
             price:'2.99',
@@ -33,7 +33,7 @@ export const COURSES=
         {
             id: 4,
             name: 'Physics',
-            image: '/assets/images/Phy.jpg',
+            image: '/assets/images/1.png',
             label: '',
             price: '0',
             featured: false,

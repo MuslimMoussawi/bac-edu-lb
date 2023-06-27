@@ -12,10 +12,7 @@ function RenderComments({comments})
             return(
                 <div class="conatainer"> 
                         <li key={comment.id}>
-                            <p>{comment.comment}</p>
-                            <p>{comment.author}    &nbsp;
-                                {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))} </p>
-                            
+                            <p>{comment.comment}</p>                     
                         </li>
                 </div>
                 )
@@ -24,7 +21,7 @@ function RenderComments({comments})
     
     return(
                 <div className='col-12 col-md-12 m-1'>
-                    <h4>Comments</h4>
+                    <h4>Courses</h4>
                     <ul className='list-unstyled'>
                         {cmnts}
                     </ul>
