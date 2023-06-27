@@ -28,7 +28,7 @@ export const LEADERS = [
     {
       id: 3,
       name: 'Helping Our Students',
-      image: '/assets/images/image3.jpeg',
+      image: '/assets/images/Image3.jpeg',
       abbr: 'EC',
       featured: true,
       description: 'We try our best to relieve our students\' stress and make them satisfied. To ensure that they are well-prepared for the exam, we prepare them fully in many different of ways.'
